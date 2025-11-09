@@ -2,14 +2,38 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.println("Задача 1!");
+byte a = 1;
+System.out.println("Значение переменной a с типом byte " + "= " + 1);
+short b = 7;
+System.out.println("Значение переменной b с типом short " + "= " + 7);
+int d = 200;
+System.out.println("Значение переменной d с типом int " + "= " + 200);
+long e = 450L;
+System.out.println("Значение переменной e с типом long " + "= " + 450L);
+float f = 3f;
+System.out.println("Значение переменной f с типом float " + "= " + 3f);
+double g = -3.123456;
+System.out.println("Значение переменной g с типом double " + "= " + -3.123456);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+System.out.println("Задача 2!");
+byte numberOne = 67;
+short numberTwo = -159;
+short numberThree = 27897;
+int numberFour = 569;
+long numberFive = 987678965549L;
+float numberSix = 27.12f;
+double numberSeven = 2.786;
+
+System.out.println("Задача 3!");
+byte studentLD = 23;
+short studentAN = 27;
+int studentEA = 30;
+int totalStudents = studentLD + studentAN + studentEA;
+long papers = 480L;
+System.out.println("На каждого ученика рассчитано " + papers / totalStudents + " листов бумаги.");
+
+
+
     }
 }
