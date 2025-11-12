@@ -66,6 +66,31 @@ System.out.println("В школе, где " + totalClasses + " классов, �
 
 System.out.println("Задание 6!");
 
+byte bananaGrams = 80;
+byte milkGrams = 105;
+byte ice_creamGrams = 100;
+byte eggGrams = 70;
+int recipeGrams = bananaGrams*5 + milkGrams*2 + ice_creamGrams*2 + eggGrams*4;
+int recipeKilo = recipeGrams/1000;
+System.out.println("Вес завтрака - " + recipeGrams + " грамм.");
+System.out.println("Вес завтрака - " + recipeKilo + " килограмм.");
+
+System.out.println("Задание 7!");
+
+short firstPlanGramsInDay = 250;
+short secondPlanGramsInDay = 500;
+short totalLoseWeightGrams = (short)7*1000;
+short firstTime = (short) (totalLoseWeightGrams / firstPlanGramsInDay);
+short secondTime = (short) (totalLoseWeightGrams / secondPlanGramsInDay);
+System.out.println("При похудении на 250 грамм в день потребуется " + firstTime + " дней.");
+System.out.println("При похудении на 500 грамм в день потребуется " + secondTime + " дней.");
+
+short averageValueGrams = (250+500)/2;
+int averageValueTime = (firstTime + secondTime) / 2;
+System.out.println("При средней скорости похудения на " + averageValueGrams + " грамм в день, можно похудеть за " + averageValueTime + " день.");
+
+System.out.println("Задание 8!");
+
 
     }
 }
