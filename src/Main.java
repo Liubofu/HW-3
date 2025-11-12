@@ -33,6 +33,38 @@ int totalStudents = studentLD + studentAN + studentEA;
 long papers = 480L;
 System.out.println("На каждого ученика рассчитано " + papers / totalStudents + " листов бумаги.");
 
+System.out.println("Задание 4!");
+
+byte bottle = 16;
+byte minTime = 2;
+short timeMinutes = 20;
+int quantityOne = timeMinutes / minTime * bottle;
+System.out.println("За 20 минут машина произвела " + quantityOne + " штук бутылок.");
+
+short timeDay = 60*24;
+int quantityTwo = timeDay / minTime * bottle;
+System.out.println("За сутки машина произвела " + quantityTwo + " штук бутылок.");
+
+short timeThreeDays = 60*24*3;
+int quantityThree = timeThreeDays / minTime * bottle;
+System.out.println("За 3 дня машина произвела " + quantityThree + " штук бутылок.");
+
+int timeMonth = 60*24*30;
+int quantityFour = timeMonth / minTime * bottle;
+System.out.println("За месяц машина произвела " + quantityFour + " штук бутылок.");
+
+System.out.println("Задание 5!");
+
+byte whiteOneClass = 2;
+byte brownOneClass = 4;
+byte quantityPaintCans = 120;
+short oneClassCan = 2 + 4;
+short totalClasses = 120 / 6;
+int totalWhite = 2*20;
+int totalBrown = 4*20;
+System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски.");
+
+System.out.println("Задание 6!");
 
 
     }
