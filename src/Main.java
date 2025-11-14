@@ -91,6 +91,26 @@ System.out.println("При средней скорости похудения н
 
 System.out.println("Задание 8!");
 
+int oldSalaryM = 67760;
+float percent = 10 / 100f;
+int newSalaryM = (int) (oldSalaryM + ( oldSalaryM * percent ));
+int oldYearSalaryM = 67760 * 12;
+int newYearSalaryM = (int) (newSalaryM * 12);
+int differenceM = newYearSalaryM - oldYearSalaryM;
+System.out.println("Маша теперь получает " + newSalaryM + " рублей. Годовой доход вырос на " + differenceM + " рублей.");
 
+int oldSalaryD = 83690;
+int newSalaryD = (int) (oldSalaryD + ( oldSalaryD * percent ));
+int oldYearSalaryD = 83690 * 12;
+int newYearSalaryD = (int) (newSalaryD * 12);
+int differenceD = newYearSalaryD - oldYearSalaryD;
+System.out.println("Денис теперь получает " + newSalaryD + " рублей. Годовой доход вырос на " + differenceD + " рублей.");
+
+int oldSalaryC = 76230;
+int newSalaryC = (int) (oldSalaryC + ( oldSalaryC * percent ));
+int oldYearSalaryC = 76230 * 12;
+int newYearSalaryC = (int) (newSalaryC * 12);
+int differenceC = newYearSalaryC - oldYearSalaryC;
+System.out.println("Кристина теперь получает " + newSalaryC + " рублей. Годовой доход вырос на " + differenceC + " рублей.");
     }
 }
